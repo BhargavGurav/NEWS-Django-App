@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Roboto+Mono&display=swap');
+
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+.nav-col{
+    /* background-image: linear-gradient(35deg, rgba(6, 70, 43, 0.847), rgba(9, 216, 147, 0.381)); */
+    /* z-index: 1; */
+}
+
+.nav-col p{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    background: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+/* #top-btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+} */
+.nav-col2 form input{
+    height: 1.8rem;
+}
+.main-container{
+    position: relative;
+    background-image: url('../images/main-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+    height: auto;
+    /* top: -8.3vh; */
+    
+}
+
+.main-container::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.432);
+}
+
+.main-container .row{
+    position: relative;
+    
+    
+}
+.main-container .heading{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.news-content{
+    border: 2px solid rgba(255, 255, 255, .3);
+    background: rgba(255, 255, 255, 0.406);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .3);
+}
+
+.news-content img{
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
